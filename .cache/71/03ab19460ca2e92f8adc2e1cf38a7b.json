@@ -1,0 +1,1 @@
+{"id":"index.html","dependencies":[],"generated":{"html":"<!DOCTYPE html>\r\n    <body>\r\n        <script type=\"module\" scr=\"./src/index.ts\"></script>\r\n    </body>\r\n"},"sourceMaps":null,"error":null,"hash":"3a6b0490c7bcf35df7efc7b16cbe11b2","cacheData":{}}
