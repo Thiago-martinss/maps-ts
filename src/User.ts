@@ -13,6 +13,6 @@ export class User {
             lat: faker.location.latitude(),
             lng: faker.location.longitude(),
 
-        };
+        }
     };
 };
