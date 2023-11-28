@@ -1,7 +1,7 @@
 //Instruction to every other class
 // on how they can be an argument to "addMarker"
 
-interface Mappable {
+export interface Mappable {
     location: {
         lat: number;
         lng: number;
@@ -39,7 +39,7 @@ addMarker(mappable: Mappable): void {
       });
 
       infoWindow.open(this.googleMap, marker);
-      
+
     })
 }
 
