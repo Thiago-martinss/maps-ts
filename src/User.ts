@@ -13,6 +13,9 @@ export class User {
             lat: faker.location.latitude(),
             lng: faker.location.longitude(),
 
-        }
-    };
-};
+        };
+    }
+    markerContent(): string {
+        return `User Name: ${this.name}`
+    }
+}
